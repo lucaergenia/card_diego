@@ -11,8 +11,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 30px 20px;
+  align-items: flex-start;      /* 👈 Subimos el contenido */
+  padding: 40px 20px 20px;      /* 👈 Más espacio arriba, menos abajo */
 }
 
 .card {
@@ -22,7 +22,7 @@ body {
 }
 
 .logo img {
-  width: 300px;            /* Logo más grande */
+  width: 300px;
   max-width: 100%;
   margin-bottom: 25px;
 }
@@ -82,7 +82,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Responsive */
+/* Responsive para móviles */
 @media screen and (max-width: 500px) {
   .logo img {
     width: 200px;
