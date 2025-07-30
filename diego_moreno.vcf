@@ -2,5 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Diego Moreno
 TITLE:MIO Manager Infra & Operaciones
-TEL;TYPE=CELL:3244042466
+TEL;TYPE=CELL:+573244042466
+EMAIL:diego@ergenia.com
+ADR;TYPE=WORK:;;Oficina 305, República de Colombia, Calle 117 #6a-60, Edificio Flormorado Empresarial, Barrio Usaquén;Bogotá DC;;110111;CO
 END:VCARD
